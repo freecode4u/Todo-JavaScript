@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(265deg, #673ab7ab, #4caf508c);
+}
+
+#data{
+    background: palegreen;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px;
+}
+
+.addTask{
+    background: aquamarine;
+    box-shadow: 4px 4px 8px;
+    border-radius: 5px;
+    margin-bottom: 50px !important;
+    padding: 20px;
+}
