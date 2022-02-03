@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: scroll;
+    overflow-x: hidden;
 }
 
 body{
@@ -30,6 +30,7 @@ body{
         overflow-x: hidden !important;
     } 
     .viewTask {
+        overflow-x: auto !important;
         width: 30rem;
     }
     #data{
@@ -46,6 +47,7 @@ body{
     .viewTask {
         width: 26rem;
         font-size: 14px;
+        overflow-x: auto !important;
         padding-left: 0px;
     }
     #data{
@@ -62,6 +64,7 @@ body{
         width: 22rem;
         font-size: 14px;
         padding-left: 0px;
+        overflow-x: auto !important;
     }
     #data{
         padding: 12px 20px !important;
@@ -77,6 +80,7 @@ body{
         width: 19rem;
         font-size: 12px;
         padding-left: 0px;
+        overflow-x: auto !important;
     }
     #data{
         padding: 12px 20px !important;
@@ -104,6 +108,7 @@ body{
     } 
     .viewTask {
         width: 17rem;
+        overflow-x: auto !important;
         font-size: 10px;
         padding-left: 0px;
     }
