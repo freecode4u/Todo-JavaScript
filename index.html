@@ -14,7 +14,7 @@
     <title>Todo-App</title>
   </head>
   <body>
-      <div class="container my-4 addTask" style="width: 40rem">
+      <div class="container col-md-6 col-sm-12 col-xs-12 my-4 addTask">
         <div class="mb-3">
           <h3 class="text-center">Todo App</h3>
           <label for="title" class="form-label fw-bold">Title</label>
@@ -27,10 +27,10 @@
         <button id="add" class="btn btn-dark shadow">Add Task</button>
       </div>
 
-      <div class="container my-4 p-5" id="data">
+      <div class="container my-4 col-sm-12 p-5 viewTask" id="data">
       <div class="d-flex justify-content-between">
           <h3 class="me-3">Items</h3>
-          <button onclick="clr()" class="btn btn-sm btn-danger shadow">Clear All</button>
+          <button onclick="clr()" class="btn btn-sm btn-danger clrall shadow">Clear All</button>
         </div>
 
         <table class="table" id="table">
