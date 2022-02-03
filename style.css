@@ -37,6 +37,23 @@ body{
     }
   }
 
+
+
+  @media only screen and (max-width: 508px) {
+    .addTask{
+       width: 22rem !important;
+    } 
+    .viewTask {
+        width: 25rem;
+        font-size: 14px;
+        padding-left: 0px;
+    }
+    #data{
+        padding: 12px 20px !important;
+    }
+  }
+
+
   @media only screen and (max-width: 425px) {
     .addTask{
        width: 20rem !important;
