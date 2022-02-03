@@ -51,7 +51,7 @@ body{
     }
   }
 
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 375px) {
     .addTask{
         font-size: 16x;
         width: 17rem !important;
@@ -59,6 +59,37 @@ body{
     .viewTask {
         width: 19rem;
         font-size: 12px;
+        padding-left: 0px;
+    }
+    #data{
+        padding: 12px 20px !important;
+    }
+    h3{
+        padding-top: 12px;
+        font-size: 20px;
+    }
+    .clrall{
+        display: inline-block;
+    font-weight: 700;
+    width: 74px;
+    line-height: 1.5;
+    align-self: center;
+    height: 35px;
+    font-size: 12px;
+    padding: 0px 0px !important;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 320px) {
+    .addTask{
+        font-size: 16x;
+        width: 14rem !important;
+    } 
+    .viewTask {
+        width: 17rem;
+        font-size: 10px;
         padding-left: 0px;
     }
     #data{
